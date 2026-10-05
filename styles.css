@@ -24,6 +24,7 @@ h1, h2, h3 { font-family: var(--heading); font-weight: 500; }
 .nav { height: 88px; display: flex; align-items: center; justify-content: space-between; }
 .wordmark { font-family: var(--heading); font-weight: 800; font-size: 26px; letter-spacing: -1.5px; line-height: 1; }
 .wordmark > span { color: var(--lime); margin-left: 2px; }
+.brand-break { display: none; }
 .nav-links { display: flex; gap: 36px; font-size: 13px; }
 .nav-links a { color: var(--muted); }
 .nav-links a:hover, .nav-links a[aria-current="location"] { color: var(--lime); }
@@ -206,7 +207,8 @@ h2 { font-size: clamp(38px,4.5vw,58px); line-height: 1.12; letter-spacing: -2px;
   html { scroll-padding-top: 85px; }
   .container { width: calc(100% - 40px); }
   .nav { height: 72px; }
-  .wordmark { font-size: 23px; }
+  .wordmark { font-size: 17px; line-height: 1.1; letter-spacing: -.6px; }
+  .brand-break { display: initial; }
   .nav-links { gap: 20px; font-size: 12px; }
   .nav-contact { padding: 8px 13px; font-size: 11px; }
   .nav-contact span { margin-left: 10px; }
@@ -280,7 +282,7 @@ h2 { font-size: clamp(38px,4.5vw,58px); line-height: 1.12; letter-spacing: -2px;
   .nav-links { gap: 12px; font-size: 10px; }
   .nav-contact { font-size: 10px; padding: 7px 10px; }
   .nav-contact span { margin-left: 5px; }
-  .wordmark { font-size: 21px; }
+  .wordmark { font-size: 16px; }
   .hero-actions { gap: 16px; }
   .button { padding: 13px 16px; gap: 17px; font-size: 11px; }
   .text-link { font-size: 10px; gap: 10px; }
